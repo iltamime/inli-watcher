@@ -1,7 +1,7 @@
 name: Surveillance in'li
 
 on:
-     workflow_dispatch: {}
+  workflow_dispatch: {}
 
 concurrency:
   group: inli-watcher
