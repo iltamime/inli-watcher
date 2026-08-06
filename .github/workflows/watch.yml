@@ -6,8 +6,8 @@ on:
   workflow_dispatch: {}
 
 concurrency:
-  group: inli-watcher
-  cancel-in-progress: false
+     group: inli-watcher
+     cancel-in-progress: true
 
 permissions:
   contents: write
