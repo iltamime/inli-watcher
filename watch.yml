@@ -1,9 +1,7 @@
 name: Surveillance in'li
 
 on:
-  schedule:
-    - cron: "*/5 * * * *"
-  workflow_dispatch: {}
+     workflow_dispatch: {}
 
 concurrency:
   group: inli-watcher
