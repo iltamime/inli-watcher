@@ -16,23 +16,23 @@ import requests
 from bs4 import BeautifulSoup
 
       IDF_DEPARTEMENTS = [
-       "paris_d:75",
-       "paris-departement_d:75",
-       "seine-et-marne_d:77",
-       "seine-et-marne-departement_d:77",
-       "yvelines_d:78",
-       "yvelines-departement_d:78",
-       "essonne_d:91",
-       "essonne-departement_d:91",
-       "hauts-de-seine_d:92",
-       "hauts-de-seine-departement_d:92",
-       "seine-saint-denis_d:93",
-       "seine-saint-denis-departement_d:93",
-       "val-de-marne_d:94",
-       "val-de-marne-departement_d:94",
-       "val-d-oise_d:95",
-       "val-d-oise-departement_d:95",
-   ]
+    "paris_d:75",
+    "paris-departement_d:75",
+    "seine-et-marne_d:77",
+    "seine-et-marne-departement_d:77",
+    "yvelines_d:78",
+    "yvelines-departement_d:78",
+    "essonne_d:91",
+    "essonne-departement_d:91",
+    "hauts-de-seine_d:92",
+    "hauts-de-seine-departement_d:92",
+    "seine-saint-denis_d:93",
+    "seine-saint-denis-departement_d:93",
+    "val-de-marne_d:94",
+    "val-de-marne-departement_d:94",
+    "val-d-oise_d:95",
+    "val-d-oise-departement_d:95",
+]
 
 LOYER_MAX = int(os.environ.get("LOYER_MAX", "760"))
 
