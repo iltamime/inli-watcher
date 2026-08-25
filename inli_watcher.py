@@ -95,7 +95,7 @@ def fetch_listings_for_department(dept_slug):
             break
 
         soup = BeautifulSoup(resp.text, "html.parser")
-        links = soup.select('a[href*="/locations/offre/"]')
+        links = soup.select('a[href*="/location-appartement-"]')
 
         if not links:
             break
